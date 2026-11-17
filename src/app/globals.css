@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+html { -webkit-text-size-adjust: 100%; }
+body { @apply bg-slate-50 text-slate-900 antialiased; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+@media print {
+  aside, header, nav, .no-print { display: none !important; }
+  main { margin: 0 !important; padding: 0 !important; }
+  section { break-inside: avoid; box-shadow: none !important; }
+}

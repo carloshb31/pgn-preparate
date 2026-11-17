@@ -1,0 +1,10 @@
+{
+  "name": "PGN PREPÁRATE – Concurso de Méritos 51-2026",
+  "short_name": "PGN Prepárate",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0b1a36",
+  "lang": "es-CO",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
